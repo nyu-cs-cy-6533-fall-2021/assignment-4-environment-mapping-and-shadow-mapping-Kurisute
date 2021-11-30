@@ -31,8 +31,6 @@ You can generate experiment results by running bin file in the project folder:
 ### Object Control
 Clicking on a object will select the object, turning its color to bright yellow.
 
-![select](sample/select.png "select")
-
 You can transform the object in multiple ways:
 
 #### Rotation
@@ -44,40 +42,25 @@ Press key 't' will activate the translation mode.Then use 'w' and 's' to transla
 #### Scaling
 Using 'q' and 'e' to rescale the object, make it bigger or smaller.
 
+#### Delete
+Using 'delete' to delete the selected object.
+
 ### Camara Control
 Press key 'n' to activate the normal mode.
 
 You can change the camara position at any time. Use key 'Up' and 'Down' to move camera along y axis, 'Left' and 'Right' to move along x axis, '-' and '+' to move along z axis.
 
-In the normal mode, you can change the camaratype by 'o' and 'p'. 'o' is for orthographic camera and 'p' is for perspective camera.
-
-Ortho mode:
-
-![ortho](sample/ortho.png "ortho")
-
-Perspective mode:
-
-![perspective](sample/perspective.png "perspective")
-
-You can also press the key 'm' to activate the trackball mode.
+You can press the key 'm' to activate the trackball mode.
 
 Use key 'Up' and 'Down' to move camera vertically, 'Left' and 'Right' to move horizontally, '-' and '+' to zoom in and out.
 
 ### Rendering Mode
 By pressing 'z' or 'x' or 'c', you can change the rendering mode of selected object into 'Phong mode' or 'Reflection mode' or 'Refraction mode'.
 
-Wireframe mode:
-
-![wire](sample/wire.png "wire")
-
-Flat mode:
-
-![flat](sample/flat.png "flat")
-
-Phong mode:
-
-![phong](sample/phong.png "phong")
-
+The picture below shows a cube in phong mode, a bunny in refraction mode and a bumpy cube in reflection mode.
+![rendering](sample/black_shadow.png "rendering")
 
 ### Shadow Color
 Pressing 'b' to change the shadow color between RED and BLACK.
+
+![shadow](sample/red_shadow.png "shadow")
